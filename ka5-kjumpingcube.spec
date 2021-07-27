@@ -44,6 +44,11 @@ KJumpingcube is a simple dice driven tactical game. The playing area
 consists of squares containing points. Players move by clicking on
 either a vacant square, or on own square.
 
+%description -l pl.UTF-8
+KJumpingcube jest prostą sterowaną rzutami kostką grą taktyczną.
+Pole gry składa się z kwadratów zawierających punkty. Ruchy graczy
+polegają na klikaniu albo w puste, albo we własne kwadraty.
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
