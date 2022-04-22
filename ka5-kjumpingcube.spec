@@ -1,18 +1,18 @@
 #
 # Conditional build:
 %bcond_with	tests		# build with tests
-%define		kdeappsver	21.12.3
+%define		kdeappsver	22.04.0
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		kjumpingcube
 Summary:	kjumpingcube
 Name:		ka5-%{kaname}
-Version:	21.12.3
+Version:	22.04.0
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Applications/Games
 Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	9d2c1485f84e2b080e2940efd92076fc
+# Source0-md5:	eb6f28ab3c2b805a0baaadb1a9e3854b
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
